@@ -1,0 +1,71 @@
+html,
+body {
+  animation: fadeIn 2s;
+  padding: 0;
+  margin: 0;
+  font-family: acumin-pro;
+  font-weight: 300;
+  line-height: 1;
+  font-size: 20px;
+  height: 100%;
+  width: 100%;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+a {
+  color: #51ACFF;
+  font-family: acumin-pro;
+  font-weight: 400;
+  font-size: 0.75rem;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+img {
+  max-width: 100%;
+  display: block;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    /* display: none; <- Crashes Chrome on hover */
+    -webkit-appearance: none;
+    margin: 0; /* <-- Apparently some margin are still there even though it's hidden */
+}
+
+input[type=number] {
+    -moz-appearance:textfield; /* Firefox */
+}
+
+.MuiToggleButtonGroup-grouped:not(:first-of-type){
+  border-top-left-radius: 5px;
+  border-bottom-left-radius: 5px !important;
+}
+
+.MuiToggleButtonGroup-grouped:not(:last-of-type){
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+}
+
+.ReactInputVerificationCode__container{
+  width: 100% !important
+}
+
+.ReactInputVerificationCode-wrapper {
+  --ReactInputVerificationCode-itemWidth: 4rem;
+  --ReactInputVerificationCode-itemHeight: 4rem;
+}
+
+.pulse {
+	animation:pulse 0.45s;
+}
+
+@keyframes pulse {
+	10% {transform: scale(1.3)}
+}

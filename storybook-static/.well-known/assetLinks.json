@@ -1,0 +1,14 @@
+[
+  {
+    "relation": [
+      "delegate_permission/common.handle_all_urls"
+    ],
+    "target": {
+      "namespace": "android_app",
+      "package_name": "com.bluprints.MicCheck",
+      "sha256_cert_fingerprints": [
+        "A8:B6:3D:2C:2D:74:D1:77:6F:B9:81:24:0F:D3:01:9F:75:9F:4F:B1:C2:C1:BE:B2:88:47:49:95:C9:11:A3:1B"
+      ]
+    }
+  }
+]

@@ -1,0 +1,11 @@
+{
+    "applinks": {
+        "apps": [],
+        "details": [
+            {
+                "appID": "X38ZKTFW73.com.bluprints.MicCheck",
+                "paths": [ "/qrcode/*", "/bands/*"]
+            }
+        ]
+    }
+}
